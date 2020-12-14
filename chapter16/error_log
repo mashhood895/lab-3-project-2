@@ -1,0 +1,14 @@
+[03-Dec-2020 16:00:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'bizfistc'@'localhost' (using password: NO) in /home/bizfistc/public_html/Projects/chapter16/lib/DatabaseHelper.class.php:10
+Stack trace:
+#0 /home/bizfistc/public_html/Projects/chapter16/lib/DatabaseHelper.class.php(10): PDO->__construct('mysql:host=loca...', '', '')
+#1 /home/bizfistc/public_html/Projects/chapter16/includes/art-config.inc.php(21): DatabaseHelper::setConnectionInfo(Array)
+#2 /home/bizfistc/public_html/Projects/chapter16/single-painting.php(2): include('/home/bizfistc/...')
+#3 {main}
+  thrown in /home/bizfistc/public_html/Projects/chapter16/lib/DatabaseHelper.class.php on line 10
+[03-Dec-2020 16:50:39 UTC] PHP Notice:  Undefined index: paintingID in /home/bizfistc/public_html/Projects/chapter16/addToFavorites.php on line 4
+[03-Dec-2020 16:50:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/bizfistc/public_html/Projects/chapter16/addToFavorites.php on line 4
+[03-Dec-2020 17:27:29 UTC] PHP Notice:  Undefined index: PaintingID in /home/bizfistc/public_html/Projects/chapter16/view-favorites.php on line 107
+[03-Dec-2020 17:27:29 UTC] PHP Notice:  Undefined index: PaintingID in /home/bizfistc/public_html/Projects/chapter16/view-favorites.php on line 108
+[03-Dec-2020 17:27:29 UTC] PHP Notice:  Undefined index: PaintingID in /home/bizfistc/public_html/Projects/chapter16/view-favorites.php on line 109
+[03-Dec-2020 18:11:26 UTC] PHP Notice:  Undefined index: paintingID in /home/bizfistc/public_html/Projects/chapter16/addToFavorites.php on line 4
+[03-Dec-2020 18:11:26 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/bizfistc/public_html/Projects/chapter16/addToFavorites.php on line 4
